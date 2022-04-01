@@ -39,8 +39,8 @@ cd test_data
 # the pattern should "x_<year>-<month>-<day>\.sql" ('.' should be marked as '\.' )
 
 # without --execute flag, the program only should the result of planned action of which file will be deleted
-java -jar house --pattern x_<year>-<month>-<day>\.sql ./test-data
+java -jar housekeeper --pattern x_<year>-<month>-<day>\.sql ./test-data
 
 # with --execute flag, the delete operation will actually perform
-java -jar house --pattern x_<year>-<month>-<day>\.sql ./test-data --execute
+java -jar housekeeper --pattern x_<year>-<month>-<day>\.sql ./test-data --execute
 ```
